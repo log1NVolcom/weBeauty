@@ -1,5 +1,77 @@
 {
+    "defaultSeverity": "error",
     "extends": [
-        "tslint-config-airbnb"
-    ]
+        "tslint:latest",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "member-access": false,
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "interface-name": false,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape",
+            "avoid-template"
+        ],
+        "typedef": [
+            true,
+            "call-signature",
+            "arrow-call-signature",
+            "parameter",
+            "arrow-parameter",
+            "property-declaration",
+            "variable-declaration",
+            "member-variable-declaration",
+            "object-destructuring",
+            "array-destructuring"
+        ],
+        "no-console": true,
+        "no-debugger":true,
+        "no-duplicate-imports":true,
+        "no-boolean-literal-compare":true,
+        "no-duplicate-super": true,
+        "no-duplicate-variable": true,
+        "no-for-in-array":true,
+        "no-implicit-dependencies":true,
+        "no-invalid-this":true,
+        "no-object-literal-type-assertion":true,
+        "no-return-await": true,
+        "no-sparse-arrays": true,
+        "no-shadowed-variable": true,
+        "no-tautology-expression": true,
+        "no-string-throw": true,
+        "no-unused-expression": [true, "allow-fast-null-checks"],
+        "no-use-before-declare": true,
+        "no-unused-variable": true,
+        "prefer-object-spread": true,
+        "switch-default": true,
+        "triple-equals": true,
+        "typeof-compare": true,
+        "unnecessary-constructor": true,
+        "use-isnan": true,
+        "no-require-imports": true,
+        "deprecation": true,
+        "arrow-return-shorthand": [true, "multiline"],
+        "return-undefined": true,
+        "switch-final-break": [true, "always"],
+        "unnecessary-else": true,
+        "import-spacing": true,
+        "jsdoc-format": [true, "check-multiline-start"],
+        "no-trailing-whitespace": true,
+        "semicolon": [true, "always"]
+
+
+
+
+
+
+
+
+
+
+    },
+    "rulesDirectory": []
 }

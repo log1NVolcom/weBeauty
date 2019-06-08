@@ -1,9 +1,10 @@
-import express from "express";
+import express from 'express';
 
-const app = express();
+const app: express.Application = express();
 
-app.get("/", (_, res) => {
-    res.send("Hello World");
+app.get('/', (_: any, res: any): void => {
+    res.send('Hello World');
 });
 
-app.listen(5000, () => console.log("Server Running!"));
+// tslint:disable-next-line
+app.listen(5000, () => console.log('Server Running!'));
